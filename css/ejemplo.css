@@ -1,0 +1,42 @@
+/*ul {
+  list-style-image: url("http://www.sololearn.com/images/bullet.jpg");
+  list-style-position: inside;
+}*/
+
+ul {
+  list-style: none inside url("http://www.sololearn.com/images/bullet.jpg");
+}
+table.separate {
+  border-collapse: separate;
+  border-spacing: 20px 40px;
+}
+table.caption {
+  caption-side: bottom;
+}
+table.empty-cell {
+  border-collapse: separate;
+  empty-cells: hide;
+}
+table.auto {
+  caption-side: bottom;
+  border-collapse: separate;
+  width: 50%;
+  table-layout: auto;
+}
+table.auto td {
+  border: 1px solid gray;
+}
+
+table.fixed {
+  caption-side: bottom;
+  border-collapse: separate;
+  width: 50%;
+  table-layout: fixed;
+}
+table.fixed td {
+  border: 1px solid gray;
+}
+
+div.division {
+  margin: 100px auto 100px auto;
+}

@@ -1,0 +1,230 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-size: 12px;
+  border-top: 5px solid #ef9300;
+  background: url(../img/bg.jpg) left 5px repeat-x white;
+}
+
+a {
+  color: #3e546b;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ancho960 {
+  width: 960px;
+  margin: 0 auto;
+}
+
+p {
+	text-align: justify;
+}
+
+/**************** BOTONES ****************/
+.btnGrande {
+  background: #ef9400;
+  background: -webkit-linear-gradient(#f4b400, #ea7300);
+  border-radius: 5px;
+  padding: 14px 18px;
+  color: white;
+  text-shadow: 0 1px 0 #e7450c;
+  display: block;
+  float: left;
+  line-height: 15px;
+}
+
+  .btnGrande img {
+    display: inline;
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+    -webkit-transition: padding 0.3s linear;
+  }
+  
+  .btnGrande:hover {
+    text-decoration: none;
+  }
+    .btnGrande:hover img {
+      padding: 0 0 0 15px;
+    }
+
+.btn {
+  display: block;
+  padding: 7px 13px;
+  text-shadow: 0 1px 0 black;
+  color: white;
+  background: #3e546b;
+  float: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(#5d7ea1, #202b37);
+}
+  .btn:hover {
+    background: #3e546b;
+    background: -webkit-linear-gradient(#f4b400, #ea7300);
+    text-decoration: none;
+    text-shadow: 0 1px 0 #e7450c;
+  }
+
+/************* HEADING *************/
+h1, h2, h3, h4, h5, h6 {
+  color: #2f363e;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/************* CABECERA *************/
+#cabecera {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+  #cabecera h1 {
+    float: left;
+    width: 300px;
+    height: 65px;
+    display: block;
+    background: url(../img/icon2.png) left top no-repeat;
+    /*overflow: hidden;*/
+    text-indent: -99999px;
+  }
+  
+  #cabecera nav {
+    float: right;
+    margin-top: 15px;
+    font-size: 11px;
+  }
+    #cabecera nav ul li {
+      float: left;
+      margin-left: 10px;
+    }
+      #cabecera nav ul li a {
+        display: block;
+        padding: 10px 13px;
+        text-transform: uppercase;
+        color: white;
+        background: #3e546b;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background: -webkit-linear-gradient(#5d7ea1, #202b37);
+      }
+      
+      #cabecera nav ul li a:hover {
+        background: #3e546b;
+        background: -webkit-linear-gradient(#f4b400, #ea7300);
+        text-decoration: none;
+      }
+
+/************ DESTACADO ************/
+#destacado article {
+  border-radius: 5px;
+  background: #2f363e;
+  background: -webkit-linear-gradient(#4a5562, #121518);
+  box-shadow: inset 0 0 13px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+#destacado article > img {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+#destacado article div.contenido {
+  width: 290px;
+  float: left;
+  margin: 40px 0 50px 30px;
+}
+
+#destacado article h1 {
+  background: url(../img/nube2.png) left top no-repeat;
+  width: 250px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  text-indent: -999999px;
+}
+
+#destacado article p {
+  color: white;
+  font-weight: bold;
+  margin: 15px 0 35px 0;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+
+/****************** PROYECTOS DESTACADOS ******************/
+#proyectos-destacados {
+  margin: 40px auto 60px auto;
+}
+
+#proyectos-destacados h3 {
+  margin-bottom: 30px;
+  background: url(../img/fondoH3Home.jpg) left center repeat-x;
+}
+
+  #proyectos-destacados h3 span {
+    background: white;
+    padding-right: 5px;
+  }
+
+#proyectos-destacados article h2 {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+#proyectos-destacados article p {
+  text-align: justify;
+  margin: 15px 0;
+}
+  
+
+/**************** FORMS ****************/
+input, textarea {
+	width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border:1px solid black;
+}
+
+textarea {
+	height: 100px;
+	resize: none;
+}
+
+
+/**************** COLUMNAS ****************/
+.columnas {
+  overflow: hidden;
+}
+
+.cuatroCol {
+  width: 225px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cuatroCol:nth-child(4n) {
+  margin-right: 0;
+}
+
+
+
+
+/*******
+a~adir prefijos:
+
+#cabecera nav ul li a:hover
+#cabecera nav ul li a
+*******/
